@@ -1,0 +1,438 @@
+                * {
+                    box-sizing: border-box;
+                    padding: 0;
+                    margin: 0;
+                    font-family: 'Roboto', sans-serif;
+                }
+                .containerNew{
+                    max-width: 1500px;
+                    padding: 0 10px;
+                    margin: 0 auto;
+                }
+                .contentMainBoxTwo .thankTopCnt {
+                    text-align: center;
+                    padding: 0;
+                }
+                .contentMainBoxTwo .thankTopCnt .callNumber {
+                    font-size: 20px;
+                    line-height: 18px;
+                    cursor: pointer;
+                    color: #2F80ED;
+                    font-weight: 600;
+                    margin-top: 16px;
+                    display: inline-block;
+                    transition: all 0.2s;
+                    margin-bottom: 16px;
+                }
+
+                .contentMainBoxTwo .thankTopCnt .callNumber:hover {
+                    text-decoration: inherit;
+                }
+
+                .contentMainBoxTwo .thankTopCnt .heading {
+                    font-weight: bold;
+                    font-size: 36px;
+                    line-height: 36px;
+                    color: #4D4D4D;
+                    margin-bottom: 25px;
+                }
+
+                .contentMainBoxTwo .thankTopCnt .content {
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 36px;
+                    color: #4D4D4D;
+                }
+
+                .popupContentTwo {
+                   /* float: left;*/
+                    padding: 0px 8px;
+                }
+
+                .contentMainBoxTwo .strong_text {
+                    font-weight: 500;
+                }
+
+                .form_product_bg {
+                    display: block;
+                }
+
+                .contentMainBoxTwo .new-input-frm {
+                    height: 50px;
+                }
+
+                .contentMainBoxTwo input[type=text].form-control {
+                    display: block;
+                    width: 100%;
+                    background: #eaf0f6;
+                    border-radius: 5px;
+                    border: 1px solid #2f80ed;
+                    font-family: roboto;
+                    font-size: 15px;
+                    height: 50px;
+                    padding: 0 10px;
+                }
+
+                body {
+                    font-family: 'Roboto', sans-serif;
+                }
+
+                img {
+                    max-width: 100%;
+                }
+
+                .popupContentTwo {
+                    position: relative;
+                }
+
+                .popupContentTwo .catModelClose {
+                    top: 50px;
+                    right: 12px;
+                    position: absolute;
+                    text-align: center;
+                    width: 32px;
+                    height: 32px;
+                    font-weight: 300;
+                    line-height: 26px;
+                    font-size: 42px;
+                    color: #1e2d7c;
+                    cursor: pointer;
+                    transition: all 0.2s;
+                }
+
+                .popupContentTwo .catModelClose:hover {
+                    color: #E31A22;
+                }
+
+                .contentMainBoxTwo {
+                    width: 100%;
+                    float: left;
+                    padding: 20px 130px;
+                    background-color: #fff;
+                    border: 1px solid #ccc !important;
+                    margin: 40px 0px;
+
+                }
+
+
+                .contentMainBoxTwo .heading {
+                    color: #4D4D4D;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-bottom: 15px;
+                    margin-top: 10px;
+                }
+
+                .contentMainBoxTwo .label-content {
+                    color: #4D4D4D;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+
+                .contentMainBoxTwo input[type=text],
+                .contentMainBoxTwo  input[type=tel],
+                .contentMainBoxTwo  input[type=number],
+                .contentMainBoxTwo  select,
+                .contentMainBoxTwo  textarea {
+                    background: #F5F8FF;
+                    border: 1px solid #2F80ED;
+                    border-radius: 4px;
+                    line-height: 42px;
+                    height: 54px;
+                    font-size: 14px;
+                    padding: 5px 5px 5px 15px;
+                    width: 100%;
+                    color: #000;
+                    cursor: pointer;
+                    outline: none;
+                }
+
+                .contentMainBoxTwo  .discription textarea {
+                    height: 95px;
+                    font-family: 'Rubik', sans-serif;
+                    color: #4D4D4D;
+                    font-weight: 500;
+                    font-size: 14px;
+                    padding: 15px 20px;
+                    line-height: 18px;
+                    resize: none;
+                    float: left;
+                }
+
+                .contentMainBoxTwo  .textarea {
+                    height: 95px;
+                    font-family: 'Rubik', sans-serif;
+                    color: #4D4D4D;
+                    background: #F5F8FF;
+                    border: 1px solid #2F80ED;
+                    border-radius: 4px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    padding: 15px 20px;
+                    line-height: 18px;
+                    resize: none;
+                    float: left;
+                    width: 100%;
+                    cursor: pointer;
+                    outline: none;
+                }
+
+                .contentMainBoxTwo  select {
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    background-image: url(../../../../tiimg.tistatic.com/new_website1/ti-design/images/down-arrow-icon.png);
+                    background-repeat: no-repeat;
+                    background-position-x: calc(100% - 10px);
+                    background-position-y: 50%;
+                }
+
+                /* .bdrBlack {
+                    border: solid 1px rgb(47, 128, 237) ! important;
+                } */
+
+                .formAutoAdj {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+
+                .contentMainBoxTwo .formCol-2 {
+                    width: 100%;
+                    float: left;
+                }
+
+                .contentMainBoxTwo .formCol-2-2 {
+                    width: calc(50% - 5px);
+                    float: left;
+                }
+
+                .contentMainBoxTwo .formCol-2-2 .formCnt {
+                    width: 50% !important;
+                }
+
+                .contentMainBoxTwo .formCol-2-2 .formCnt:first-child input {
+                    border-radius: 4px 0 0 4px;
+                    border-right: 0;
+                }
+
+                .contentMainBoxTwo .formCol-2-2 .formCnt:last-child select {
+                    border-radius: 0 4px 4px 0;
+                    border-left: 0;
+                    background-color: #e6e6e6;
+                    font-weight: 500;
+                }
+
+                .contentMainBoxTwo .formCol-2 .formCnt {
+                    width: calc(50% - 5px);
+                    float: left;
+                }
+
+                .contentMainBoxTwo .formCol-2 .formCnt.left-class:last-child {
+                    float: none;
+                }
+
+                .contentMainBoxTwo .formCol-2 .formCnt:last-child {
+                    float: right;
+                }
+
+                .contentMainBoxTwo .formCnt {
+                    width: 100%;
+                    float: left;
+                    margin-top: 15px;
+                    position: relative;
+                }
+
+                .contentMainBoxTwo .formCnt .intl-tel-input {
+                    width: 100%;
+                }
+
+                .contentMainBoxTwo .formCnt .intl-tel-input .selected-flag {
+                    height: 50px;
+                }
+
+                .contentMainBoxTwo  .formCnt input[type=text].error,
+                .contentMainBoxTwo  .formCnt input[type=number].error,
+                .contentMainBoxTwo  .formCnt select.error,
+                .contentMainBoxTwo  .formCnt textarea.error {
+                    border: solid 1px #ff0000;
+                }
+
+                .formCnt label.error {
+                    color: #ff0000;
+                    font-size: 13px;
+                    font-weight: normal;
+                    margin-top: 2px;
+                    width: 100%;
+                    float: left;
+                }
+
+                .formCnt label {
+                    font-size: 16px;
+                    color: #000000;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                    display: block;
+                }
+
+
+                .mobileCnt .intl-tel-input input[type=text],
+                .mobileCnt .intl-tel-input input[type=tel] {
+                    padding-left: 90px !important;
+                }
+
+                .mobileCnt .floating-label {
+                    left: 90px !important;
+                }
+
+                .mobileCnt .floating-label.active {
+                    top: -7px;
+                    left: 6px;
+                    background: #F8F8F8;
+                    padding: 0px 2px;
+                    color: #959595;
+                }
+
+                .mobileCnt .floating-label.active2 {
+                    top: -7px !important;
+                    left: 6px;
+                    background: #F8F8F8;
+                    padding: 0px 2px;
+                    color: #959595;
+                }
+
+                .formCnt .floating-label {
+                    color: #4D4D4D;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 18px;
+                    display: block;
+                    position: absolute;
+                    top: 18px;
+                    left: 10px;
+                    transition: 0.7s ease all;
+                    pointer-events: none;
+                }
+
+                .formCnt input:focus~.floating-label,
+                .formCnt input:not(:focus):valid~.floating-label {
+                    top: -7px;
+                    left: 6px;
+                    background: #F8F8F8;
+                    padding: 0px 2px;
+                    color: #959595;
+                }
+
+                .btnCnt {
+                    width: 100%;
+                    float: left;
+                    margin-top: 40px;
+                    text-align: center;
+                }
+
+                .contentMainBoxTwo .btn {
+                    background: #E31A22;
+                    border-radius: 8px;
+                    line-height: 36px;
+                    font-size: 22px;
+                    border: 2px solid #E31A22;
+                    padding: 4px 24px;
+                    width: 180px;
+                    cursor: pointer;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                    transition: 0.3s ease all;
+                }
+
+                .contentMainBoxTwo .btn:hover {
+                    opacity: 0.9;
+                }
+
+
+
+                .mobile-message {
+                    margin-top: 8px;
+                    font-size: 14px;
+                    width: 100%;
+                    float: left;
+                }
+
+                @media only screen and (max-width: 672px) {
+                    .catModel .popupMainCnt .popupContent {
+                        width: 96%;
+                        padding: 40px 16px;
+                    }
+
+                    .contentMainBoxTwo {
+                        padding: 20px 40px;
+                    }
+
+                    .catModel .popupMainCnt .popupContent .catModelClose {
+                        top: 10px;
+                        right: 7px;
+                        font-size: 38px;
+                    }
+
+                    .formCol-2 .formCnt {
+                        width: 100%;
+                    }
+
+                    .formCol-2-2 {
+                        width: 100%;
+                    }
+
+                    .contentMainBox .heading {
+                        line-height: 24px;
+                    }
+
+                    .thankTopCnt img {
+                        margin-bottom: 15px;
+                    }
+
+                    .thankTopCnt .content {
+                        font-size: 18px;
+                        line-height: 25px;
+                    }
+
+                    .btnCnt {
+                        margin-top: 15px;
+                    }
+
+                    .reqFrq .label {
+                        width: 100%;
+                        margin-right: 0;
+                    }
+
+                    .thankTopCnt {
+                        padding: 0px 0 15px 0px;
+                    }
+
+                    .thankBottomCnt {
+                        padding: 15px;
+                    }
+                }
+
+@media only screen and (max-width: 768px){
+.contentMainBoxTwo {
+    padding: 20px 5px;
+}
+.txt{
+    padding: 10px;
+}
+}
+
+@media only screen and (max-width: 1025px){
+.txt {
+    width: 100% !important;
+}
+}
+
+@media only screen and (max-width: 1025px){
+	.main {
+		    margin: 0px;
+		        padding: 0px 15px ! important;
+			    width: auto;
+	}
+}

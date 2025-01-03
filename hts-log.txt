@@ -1,0 +1,26 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 05 Dec 2024 22:35:55 at https://www.micronin.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.micronin.com/ -O1 "C:\My Web Sites\micron" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:45:32	Error: 	"Not Found" (404) at link https://www.micronin.com/Trident/ (from https://www.micronin.com/)
+22:45:32	Error: 	"Not Found" (404) at link https://www.micronin.com/theme1/lang-arrow.png (from https://www.micronin.com/)
+22:45:32	Error: 	"Not Found" (404) at link https://www.micronin.com/theme1/nav-divider.png (from https://www.micronin.com/)
+22:45:32	Error: 	"Not Found" (404) at link https://www.micronin.com/theme1/go.png (from https://www.micronin.com/)
+22:45:32	Error: 	"Not Found" (404) at link https://www.micronin.com/theme1/cross-btn.png (from https://www.micronin.com/)
+22:47:28	Error: 	"Not Found" (404) at link https://cpimg.tistatic.com//136848/5/template_photo_5.jpg (from https://www.micronin.com/)
+22:47:28	Error: 	"Not Found" (404) at link https://cpimg.tistatic.com//136848/5/template_photo_6.jpg (from https://www.micronin.com/)
+22:47:45	Error: 	"Not Found" (404) at link https://thestagingurl.tradeindia.com/custom_headers/gallery/dist/simple-lightbox.js (from https://www.micronin.com/chp-320-motorcycle-crankshaft-assembly-hydraulic-power-press-8116457.html)
+22:47:54	Error: 	"Not Found" (404) at link https://orig-st-gce.tradeindia.com/ver9438/css/images/left-arrow.png (from https://orig-st-gce.tradeindia.com/ver9438/css/catalog/theme1.css)
+22:47:54	Error: 	"Not Found" (404) at link https://orig-st-gce.tradeindia.com/ver9438/css/images/right-arrow.png (from https://orig-st-gce.tradeindia.com/ver9438/css/catalog/theme1.css)
+22:47:54	Error: 	"Not Found" (404) at link https://st.tistatic.com/ver9438/chromebg.gif (from https://st.tistatic.com/ver9438/combine_css_js.php?type=css&files=tradeindia/design_ver3/inner_media.css,design_ver3/tradeindia.css,tradeindia/design_ver3/tradeindia_new_raw.css,design_ver3/inquiry_form/form-popup.css,design_ver3/inquiry_form/form.css,tradeindia/design_ver4/tradeindia_top_header.css,tradeindia/design_ver4/tradeindia_footer.css,tradeindia/design_ver4/media.css)
+22:47:54	Error: 	"Not Found" (404) at link https://st.tistatic.com/ver9438/chromebg-over.gif (from https://st.tistatic.com/ver9438/combine_css_js.php?type=css&files=tradeindia/design_ver3/inner_media.css,design_ver3/tradeindia.css,tradeindia/design_ver3/tradeindia_new_raw.css,design_ver3/inquiry_form/form-popup.css,design_ver3/inquiry_form/form.css,tradeindia/design_ver4/tradeindia_top_header.css,tradeindia/design_ver4/tradeindia_footer.css,tradeindia/design_ver4/media.css)
+22:47:54	Error: 	"Not Found" (404) at link https://st.tistatic.com/ver9438/ie-css3.htc (from https://st.tistatic.com/ver9438/combine_css_js.php?type=css&files=tradeindia/design_ver3/inner_media.css,design_ver3/tradeindia.css,tradeindia/design_ver3/tradeindia_new_raw.css,design_ver3/inquiry_form/form-popup.css,design_ver3/inquiry_form/form.css,tradeindia/design_ver4/tradeindia_top_header.css,tradeindia/design_ver4/tradeindia_footer.css,tradeindia/design_ver4/media.css)
+22:47:54	Error: 	"Not Found" (404) at link https://orig-st-gce.tradeindia.com/ver9185/css/images/left-arrow.png (from https://orig-st-gce.tradeindia.com/ver9185/css/catalog/theme1.css)
+22:47:54	Error: 	"Not Found" (404) at link https://orig-st-gce.tradeindia.com/ver9185/css/images/right-arrow.png (from https://orig-st-gce.tradeindia.com/ver9185/css/catalog/theme1.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 11 minutes 59 seconds : 285 links scanned, 268 files written (46341270 bytes overall) [32461770 bytes received at 45148 bytes/sec], 20165805 bytes transferred using HTTP compression in 78 files, ratio 25%, 1.3 requests per connection
+(15 errors, 0 warnings, 0 messages)

@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.micronin.com	TRUE	/	FALSE	1999999999	CATALOG_TI_SESSION_COOKIE	f0d7db300aca591883c2842ead351e1b
+

@@ -1,0 +1,158 @@
+<title>Anexo de ficheiro Tradeindia.com </title>
+
+<style type="text/css">
+<!--
+.style12 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; }
+.style14 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.style16 {
+color: #FF6600;
+			 font-family: Verdana, Arial, Helvetica, sans-serif;
+			 font-size: 18px;
+}
+.style18 {
+				font-size: 14px;
+				font-weight: bold;
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style20 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; }
+-->
+</style>
+<script>
+function get_fileObj(id,d)
+{
+	var i,x;  if(!d) d=document; 
+	if(!(x=d[id])&&d.all) x=d.all[id]; 
+	for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][id];
+	for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=get_fileObj(id,d.layers[i].document);
+	if(!x && document.getElementById) x=document.getElementById(id); 
+	return x;
+};
+</script>
+
+<script type="text/javascript">
+
+			function Done()
+			{
+				var theForm = document.getElementById( "composeform" );
+				theForm.FName.value = ""; // prevent infinite loop
+				theForm.submit();
+			}
+						
+				var nextHiddenIndex = 5;
+			
+				function AddFileInput()
+				{
+					get_fileObj("fileInput" + nextHiddenIndex).style.display = document.all ? "block" : "table-row";
+					nextHiddenIndex++;
+					if(nextHiddenIndex >= 10) get_fileObj("attachMoreFile").style.display = "none";
+				}
+			
+		
+		
+</script>
+<script>
+
+var attachment_code = '\
+';
+
+var fixed_rfi_136848 = window.opener.document.all ? window.opener.document.all['fixed_rfi_136848'] : window.opener.document.getElementById ? window.opener.document.getElementById('fixed_rfi_136848') : null;
+
+window.opener.document.getElementById('fixed_rfi_136848').innerHTML= attachment_code ;
+
+</script>
+
+
+<form action="https://www.micronin.com/component/utils/attachment_popup_action.html" name="attach_form" method="post" ENCTYPE="multipart/form-data">
+<input type="hidden" name="section" value="fixed_rfi_136848">
+<input type="hidden" name="html_id" value="fixed_rfi_136848">
+<input type="hidden" name="swift_container" value="swft-temp-file-uploads">
+
+
+
+<h2 class="style16"><br>
+Adicionar anexos</h2>
+<h2 class="style16"><span class="style20">Clique em <strong>"Procurar"</strong> para selecionar um ficheiro e, em seguida, clique em <strong> "Anexar/Eliminar anexos" </strong> para anexar o ficheiro. <em>Pode anexar ficheiros até um tamanho total de 14,8 MB.</em></span></h2>
+
+<table width="90%" cellpadding="4" cellspacing="0" border="0">
+
+<tr>
+<td colspan="2" bgcolor="fffaea">
+
+<table style="margin:1em 0 1em 0">
+<tr valign="top" id="fileInput0">
+<td><b>Anexo 1:</b></td>
+<td><input type="file" name="attach_file" size="20"></td>
+</tr>
+<tr valign="top" id="fileInput1">
+<td><b>Anexo 2:</b></td>
+<td><input type="file" name="attach_file1" size="20"></td>
+</tr>
+<tr valign="top" id="fileInput2">
+<td><b>Anexo 3:</b></td>
+<td><input type="file" name="attach_file2" size="20"></td>
+</tr>
+<tr valign="top" id="fileInput3">
+<td><b>Anexo 4:</b></td>
+<td><input type="file" name="attach_file3" size="20"></td>
+</tr>
+<tr valign="top" id="fileInput4">
+<td><b>Anexo 5:</b></td>
+<td><input type="file" name="attach_file4" size="20"></td>
+</tr>
+
+
+<tr valign="top" id="fileInput5" style="display:none">
+<td><b>Anexo 6:</b></td>
+<td><input type="file" name="attach_file5" size="20"></td>
+</tr>
+
+
+<tr valign="top" id="fileInput6" style="display:none">
+<td><b>Anexo 7:</b></td>
+<td><input type="file" name="attach_file6" size="20"></td>
+</tr>
+
+
+<tr valign="top" id="fileInput7" style="display:none">
+<td><b>Anexo 8:</b></td>
+<td><input type="file" name="attach_file7" size="20"></td>
+</tr>
+
+
+<tr valign="top" id="fileInput8" style="display:none">
+<td><b>Anexo 9:</b></td>
+<td><input type="file" name="attach_file8" size="20"></td>
+</tr>
+
+
+<tr valign="top" id="fileInput9" style="display:none">
+<td><b>Anexo 10:</b></td>
+<td><input type="file" name="attach_file9" size="20"></td>
+</tr>
+
+
+</table>
+
+<p id="attachMoreFile"><a href="javascript:AddFileInput()">Mais anexos</a></p>
+
+</td>
+</tr>
+<tr>
+<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+<input type="submit" name="submit" value="Attach/Delete Attachments">
+</td>
+</tr>
+</table>
+</form>
+<center>
+
+<input type="image" src="../../../img.tradeindia.com/new_website1/general/closebutton.gif" border="0" onclick="javascript:window.close()">
+
+</center>
